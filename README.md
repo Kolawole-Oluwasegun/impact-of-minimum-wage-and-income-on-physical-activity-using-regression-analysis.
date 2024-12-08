@@ -7,7 +7,7 @@ R Script
 
 This project examines the impact of minimum wage and income on physical activity using regression analysis. The analysis involves calculating summary statistics, visualizing key variables, performing regression models with robustness checks, and generating formatted outputs.  
 
-The code is designed to be modular and reproducible, with scripts structured to produce key tables and figures required for analysis. Data is assumed to be saved as `Msabila_AnalysisData` in the working directory.
+The code is designed to be modular and reproducible, with scripts structured to produce key tables and figures required for analysis. Data is assumed to be saved as `Physical` in the working directory.
 
 
 ## Requirements
@@ -45,7 +45,7 @@ Project/
 │   ├── analysis.R         # Main analysis script
 │
 ├── data/
-│   ├── Msabila_AnalysisData.RData  # Dataset for analysis
+│   ├── Physical.RData  # Dataset for analysis
 │
 ├── output/
 │   ├── Summary_Statistics.docx     # Generated summary statistics table
@@ -66,15 +66,15 @@ Project/
       ```
 
 ### 2. **Load the Dataset**
-   Ensure the dataset `Msabila_AnalysisData` is saved in the `data/` folder. Load it using:
+   Ensure the dataset `Physical` is saved in the `data/` folder. Load it using:
    ```R
-   load("data/Msabila_AnalysisData.RData")
+   load("data/Physical.RData")
    ```
 
 ### 3. **Run the Analysis Script**
    Execute the main analysis script located in the `scripts/` directory:
    ```R
-   source("scripts/analysis.R")
+   source("scripts/Physical.R")
    ```
 
 ### 4. **Generated Outputs**
